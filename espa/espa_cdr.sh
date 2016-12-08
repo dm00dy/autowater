@@ -88,7 +88,7 @@ do
 			printf -v row "%02d" $((10#$row))
 		
 			# python /home/blue/sparklemotion/autowater/scripts/run_autowater_all.py ${path} ${row} -s $scenedate -e $scenedate
-			echo "python /home/blue/sparklemotion/autowater/scripts/run_autowater_all.py ${path} ${row} -s $scenedate -e $scenedate"
+			python /home/blue/sparklemotion/autowater/scripts/run_autowater_all.py ${path} ${row} -s $scenedate -e $scenedate
 			
 	
 		else
